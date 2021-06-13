@@ -50,7 +50,10 @@ export default function SingleProject() {
       />
 
       <div>
-        <img src={project.mainImage.asset.url} />
+        <img
+          src={project.mainImage.asset.url}
+          alt={project.name}
+        />
       </div>
       <p>{project.description}</p>
       {/* Block content */}
