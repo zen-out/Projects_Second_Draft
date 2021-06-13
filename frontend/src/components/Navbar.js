@@ -12,6 +12,7 @@ import ProjectPage from "../pages/ProjectPage";
 import ResumePage from "../pages/ResumePage";
 import SignupPage from "../pages/SignupPage";
 import ThoughtPage from "../pages/ThoughtPage";
+import ErrorPage from "../pages/ErrorPage";
 import SingleProject from "../components/SingleProject";
 import SingleThought from "../components/SingleThought";
 import SingleResume from "../components/SingleResume";
@@ -75,6 +76,7 @@ function Navbar() {
         />
         <Route component={ProjectPage} path="/project" />
         <Route component={HomePage} path="/" exact />
+        <Route component={ErrorPage} />
       </Switch>
     </BrowserRouter>
   );

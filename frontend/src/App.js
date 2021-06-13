@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 function App() {
   return (
-    <div className="App">
+    <div className="font11">
       <Navbar />
       <h1>hello</h1>
     </div>
