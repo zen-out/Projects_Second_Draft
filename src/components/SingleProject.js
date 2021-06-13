@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import sanityClient from "../utils/sanityClient";
-import { Link } from "react-router-dom";
 import {
   urlFor,
   SANITY_PROJECT_ID,
